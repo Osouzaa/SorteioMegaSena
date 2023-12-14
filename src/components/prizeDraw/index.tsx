@@ -17,7 +17,7 @@ const PrizeDraw = () => {
 
     for (let i = 0; i < numDraws; i++) {
       const numbers: number[] = [];
-      for (let j = 0; j < 5; j++) {
+      for (let j = 0; j < 6; j++) {
         numbers.push(generateRandomNumber());
       }
       newDraws.push(numbers);
@@ -38,7 +38,7 @@ const PrizeDraw = () => {
     const sortedNumbers = Object.keys(counts).sort(
       (a, b) => counts[Number(b)] - counts[Number(a)]
     );
-    const mostRepeated = sortedNumbers.slice(0, 5).map((num) => Number(num));
+    const mostRepeated = sortedNumbers.slice(0, 6).map((num) => Number(num));
 
     setMostRepeatedNumbers(mostRepeated);
   };
@@ -62,6 +62,7 @@ const PrizeDraw = () => {
               <th>Nº 3</th>
               <th>Nº 4</th>
               <th>Nº 5</th>
+              <th>Nº 6</th>
             </tr>
           </thead>
           <tbody>
