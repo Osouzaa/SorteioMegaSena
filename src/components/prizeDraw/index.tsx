@@ -68,7 +68,7 @@ const PrizeDraw = () => {
           <tbody>
             {draws.map((numbers, index) => (
               <tr key={index}>
-                <td>Sorteio {index + 1}</td>
+                <td> {index + 1}</td>
                 {numbers.map((num, i) => (
                   <td key={i}>{num}</td>
                 ))}
