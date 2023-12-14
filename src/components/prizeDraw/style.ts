@@ -93,13 +93,13 @@ const Table = styled.table`
     border: 1px solid #eef0e5;
     text-align: center;
     padding: 8px;
-    font-size: 18px;
+    font-size: 16px;
   }
   td {
     border: 1px solid #eef0e5;
     text-align: center;
     padding: 8px;
-    font-size: 18px;
+    font-size: 16px;
     color: #eef0e5;
   }
 
