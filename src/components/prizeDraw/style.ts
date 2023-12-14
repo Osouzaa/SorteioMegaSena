@@ -89,12 +89,18 @@ const Clabel = styled.label`
 const Table = styled.table`
   border-collapse: collapse;
 
-  th,
+  th {
+    border: 1px solid #eef0e5;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+  }
   td {
     border: 1px solid #eef0e5;
     text-align: center;
     padding: 8px;
     font-size: 18px;
+    color: #eef0e5;
   }
 
   th {
