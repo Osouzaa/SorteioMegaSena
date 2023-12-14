@@ -22,7 +22,7 @@ const Content = styled.div`
   align-items: center;
 
   button {
-    @media (max-width: 414px) {
+    @media (max-width: 415px) {
       margin: 2em 0em 3em 0em;
       width: 50%;
       height: 35px;
@@ -61,7 +61,7 @@ const Content = styled.div`
   }
 `;
 const Clabel = styled.label`
-  @media (max-width: 414px) {
+  @media (max-width: 415px) {
     width: 100%;
   }
 
